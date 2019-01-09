@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(19, 24, 33);
+}
+
+.toast-theme {
+  --tw-bg-opacity: 0.9;
+  background-color: rgb(30 21 50 / var(--tw-bg-opacity));
+  border: 0.5px solid white;
+}
+
